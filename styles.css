@@ -1,0 +1,24 @@
+
+.post {
+    width: 400px;
+    height: 600px;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: 0px 0px 14px 0px; 
+}    
+
+.texto_cabecera {
+    color: #333;
+    text-align: justify;
+
+}
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+
+}
