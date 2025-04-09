@@ -1,24 +1,52 @@
 
 .post {
     width: 400px;
-    height: 600px;
     justify-content: center;
     background-color: white;
     align-items: center;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 16px;
     box-shadow: 0px 0px 14px 0px; 
 }    
 
-.texto_cabecera {
-    color: #333;
-    text-align: justify;
+.texto-margin{
+    margin-left: 8px;
+}
 
+.bruno {
+    margin: 0;
+}
+
+.texto_cabecera {
+    align-items: center;
+    color: #333;
+    display: flex;
+}
+h3 {
+    margin: 0;
 }
 .cabecera {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding: 10px;
+}
+.iconos-botton {
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+}
 
+i{
+   font-size: 40px; 
+}
+.texto_superior {
+    padding: 10px;
+
+}
+
+.texto_descripcion {
+    margin: 0;
+    padding: 10px;
 
 }
